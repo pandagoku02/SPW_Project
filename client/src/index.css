@@ -1,0 +1,29 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  --theme-color: #686f6f;
+  --font-color-light: #d0defb;
+  --font-color-dark: #5467b5;
+}
+
+body {
+  background: radial-gradient(
+      ellipse at top,
+      var(--font-color-light),
+      transparent
+    ),
+    radial-gradient(ellipse at bottom, var(--font-color-dark), transparent);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

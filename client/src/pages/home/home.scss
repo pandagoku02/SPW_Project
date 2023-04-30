@@ -1,0 +1,15 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .home-content {
+    width: 100%;
+    height: calc(100vh - 150px);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+  }
+}

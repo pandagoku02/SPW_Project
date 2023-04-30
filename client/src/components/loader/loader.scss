@@ -1,0 +1,30 @@
+.loader {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1000000;
+
+  .circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 6px solid gray;
+    border-top: 6px solid #fff;
+    animation: animate 4s linear infinite;
+
+    @keyframes animate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}
